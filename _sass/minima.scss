@@ -47,3 +47,65 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+
+.logo-text {
+    display: block;
+    float: left;
+    margin-top: 80px;
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.b-toggle {
+    &__content {
+        display: none;
+    }
+    &.active &__content {
+        display: block;
+    }
+    &.active &__link {
+        display: none;
+    }
+}
+
+
+.entry-content {
+    position: relative;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    letter-spacing: -0.025em;
+    &::before {
+        content: '';
+        display: block;
+        width: 100px;
+        position: absolute;
+        left: 0;
+        top: -1px; // border-top: 1px solid #0070e0;
+        border-top: 1px solid #9d2222;
+    }
+    .b-post:first-child & {
+        border-top: 0;
+        &::before {
+            display: none;
+        }
+    }
+}
+
+.entry-main {
+    margin-bottom: 20px !important;
+}
+
+
+.main-menu li.active>a {
+    color: #9d2222;
+}
+
+.btn-bd-primary {
+    display: inline-block;
+    cursor: pointer;
+}

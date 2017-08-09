@@ -1,0 +1,49 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project: ProNewspaper
+Version:  1.0
+Assigned to:  WebNik
+Primary use: ProNewspaper
+-------------------------------------------------------------------*/
+
+
+/* FONTS*/
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');*/
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+/*@import '../fonts/stroke/style.css';*/
+/*@import '../fonts/elegant/style.css';*/
+/*@import 'https://cdn.bootcss.com/pixeden-stroke-7-icon/1.2.3/dist/pe-icon-7-stroke.min.css';*/
+/*@import '../fonts/flaticon/font/flaticon.css';*/
+
+
+
+/* PLUGIN CSS */
+
+/* bootstrap */
+@import 'bootstrap.css';
+/* header */
+@import 'header.css';
+/* header */
+/*@import 'yamm.css';*/
+/* main slider */
+/*@import '../plugins/slider-pro/slider-pro.css';*/
+/* other sliders */
+/*@import '../plugins/owl-carousel/owl.theme.css';*/
+/* modal */
+/*@import '../plugins/magnific-popup/magnific-popup.css';*/
+/* animations */
+/*@import '../plugins/animate/animate.css';*/
+/* ticker */
+/*@import url('../plugins/news-ticker/css/endlessRiver.css');*/
+/* video-player */
+/*@import '../plugins/flowplayer/skin/playful.css';*/
+
+
+
+/* MAIN CSS */
+
+@import 'theme.css';
+/*@import 'theme-dark.css';*/
+@import 'color.css';
+@import 'responsive.css';
