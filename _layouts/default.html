@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "ru" }}">
 
   {% include head.html %}
 
@@ -7,10 +7,19 @@
 
     {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <main class="section-type-10" aria-label="Content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <section class="section-area">
         {{ content }}
-      </div>
+
+                    </section>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
     </main>
 
     {% include footer.html %}

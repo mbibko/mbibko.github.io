@@ -1,3 +1,5 @@
+<!-- <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
+
 <header class="header header-boxed-width header-navbar-white header-navibox-2-center header-navibox-3-right header-navibox-4-right header-topbarbox-1-left header-topbarbox-2-right">
     <div class="container container-boxed-width">
         <div class="container">
@@ -15,7 +17,7 @@
                 <!-- Mobile Trigger End-->
                 <a class="navbar-brand scroll" href="index.html">
                     <span href="#" class="logo-img" style="">
-                        <img width="300" src="images/logo.png" alt="">
+                        <img width="300" src="{{site.baseurl}}/images/logo.png" alt="">
                     </span>
                     <div class="logo-text">Школа интегрального развития человека <br> ВДОХНОВЕНИЕ</div>
                 </a>
@@ -24,16 +26,12 @@
         <nav class="navbar" id="nav">
             <div class="container">
                 <div class="header-navibox-2">
-                    {% if page_paths %}
                         <ul class="yamm main-menu nav navbar-nav">
-                        {% for path in page_paths %}
-                          {% assign my_page = site.pages | where: "path", path | first %}
-                          {% if my_page.title %}
-                              <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                          {% endif %}
+                            <li><a href="index.html">Главная</a></li>
+                        {% for category in site.categories %}
+                            <li><a href="{{site.baseurl}}/categories/{{ category | first }}">{{ category | first }}</a></li>
                         {% endfor %}
                         </ul>
-                    {% endif %}
                 </div>
             </div>
         </nav>

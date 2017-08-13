@@ -1,8 +1,13 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
 @charset "utf-8";
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
-@import 'css/bootstrap.css';
-@import 'css/header.css';
+@import '/css/bootstrap.css';
+@import '/css/header.css';
+@import '/css/theme.css';
 
 // @import 'bootstrap/_variables';
 // @import 'bootstrap/bootstrap';
