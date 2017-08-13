@@ -15,7 +15,7 @@
                 <!-- Mobile Trigger Start-->
                 <button class="menu-mobile-button visible-xs-block js-toggle-screen toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
                 <!-- Mobile Trigger End-->
-                <a class="navbar-brand scroll" href="index.html">
+                <a class="navbar-brand scroll" href="{{site.baseurl}}">
                     <span href="#" class="logo-img" style="">
                         <img width="300" src="{{site.baseurl}}/images/logo.png" alt="">
                     </span>
@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="header-navibox-2">
                         <ul class="yamm main-menu nav navbar-nav">
-                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="{{site.baseurl}}">Главная</a></li>
                         {% for category in site.categories %}
                             <li><a href="{{site.baseurl}}/categories/{{ category | first }}">{{ category | first }}</a></li>
                         {% endfor %}
