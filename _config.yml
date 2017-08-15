@@ -33,7 +33,7 @@ prose:
         field:
           label: "Title"
           element: "text"
-          value: ":year-:month-:day-Headline!.md"
+          value: "Заголовок"
       - name: "published"
         field:
           element: "hidden"
