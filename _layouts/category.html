@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink: /categories/вводная/
-title: Вводная
 ---
 
+{{ content }}
 <h1>{{ page.title }}</h1>
 
-{% for post in site.categories["вводная"] %}
+{% assign title = page.title | downcase %}
+{% for post in site.categories[title] %}
 <article class="b-post b-post_main clearfix">
     <div class="entry-main">
         <div class="entry-header">
@@ -17,4 +17,4 @@ title: Вводная
         </div>
     </div>
 </article>
-  {% endfor %}
+{% endfor %}
