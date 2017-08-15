@@ -26,7 +26,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
 prose:
-  - name: "layout"
-    field:
-      element: "hidden"
-      value: "text"
+  rooturl: '_posts'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
