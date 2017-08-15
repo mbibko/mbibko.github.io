@@ -25,3 +25,8 @@ theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
+prose:
+  - name: "layout"
+    field:
+      element: "hidden"
+      value: "blog"
