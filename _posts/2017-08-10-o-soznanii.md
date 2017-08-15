@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "О Сознании"
+post_title: "О Сознании"
 categories: vvedenie
 excerpt_separator: <!--more-->
 ---

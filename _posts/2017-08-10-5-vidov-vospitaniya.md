@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "5 видов воспитания"
+post_title: "5 видов воспитания"
 categories: vvedenie
 excerpt_separator: <!--more-->
 ---
