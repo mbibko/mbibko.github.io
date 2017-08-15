@@ -33,3 +33,13 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Select Category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Введение"
+              value: "введение"
+            - name: "Основная"
+              value: "основная"
