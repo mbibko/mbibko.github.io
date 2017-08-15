@@ -29,6 +29,11 @@ prose:
   rooturl: '_posts'
   metadata:
     _posts:
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "A awesome Headline!"
       - name: "published"
         field:
           element: "hidden"
