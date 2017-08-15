@@ -6,7 +6,8 @@ layout: page
 <h1>{{ page.title }}</h1>
 
 {% assign title = page.slug | downcase %}
-{% for post in site.categories[title] %}
+{% assign my_array = site.categories[title] | sort %}
+{% for post in my_array %}
 <article class="b-post b-post_main clearfix">
     <div class="entry-main">
         <div class="entry-header">
