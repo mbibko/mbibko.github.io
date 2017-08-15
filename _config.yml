@@ -36,10 +36,10 @@ prose:
       - name: "category"
         field:
           element: "select"
-          label: "Select Category"
-          placeholder: "Choose Category"
+          label: "Выбрать категорию"
+          placeholder: "Выбрать категорию"
           options:
             - name: "Введение"
-              value: "введение"
+              value: "vvedenie"
             - name: "Основная"
-              value: "основная"
+              value: "osnovnaya"
