@@ -29,7 +29,11 @@ prose:
   rooturl: '_posts'
   metadata:
     _posts:
-
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: ":year-:month-:day-Headline!.md"
       - name: "published"
         field:
           element: "hidden"
