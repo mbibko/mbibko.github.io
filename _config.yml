@@ -29,7 +29,7 @@ prose:
   rooturl: '_posts'
   metadata:
     _posts:
-      - name: "post_title"
+      - name: "_title"
         field:
           element: "text"
           value: "Заголовок"

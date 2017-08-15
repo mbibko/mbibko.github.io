@@ -5,7 +5,7 @@ layout: default
 <article class="b-post b-post_main clearfix" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="entry-main">
         <div class="entry-header">
-            <h1 class="entry-title" itemprop="name headline">{{ page.page_title | escape }}</h1>
+            <h1 class="entry-title" itemprop="name headline">{{ page._title | escape }}</h1>
         </div>
         <div class="entry-content" itemprop="articleBody">
             {{ content }}
