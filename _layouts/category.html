@@ -5,7 +5,7 @@ layout: page
 {{ content }}
 <h1>{{ page.title }}</h1>
 
-{% assign title = page.title | downcase %}
+{% assign title = page.slug | downcase %}
 {% for post in site.categories[title] %}
 <article class="b-post b-post_main clearfix">
     <div class="entry-main">
